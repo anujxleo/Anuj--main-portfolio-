@@ -15,9 +15,9 @@ import facebookLogo from "../../public/facebook.png";
 export default function Home() {
   const professions = [
     "BCA Student",
-    "Programar",
+    "Programmer",
     "Web Devloper",
-    "video Editor",
+    "Video Editor",
     "Developer",
   ];
 
@@ -106,8 +106,8 @@ export default function Home() {
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
-            Artificial Intelligence Engineer | Frontend Developer | Tech
-            Explorer
+            Web Devloper| Video Editor | Programmer
+            
           </p>
 
           {/* Profession Tags */}
