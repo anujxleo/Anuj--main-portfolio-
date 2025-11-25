@@ -76,7 +76,7 @@ export default function Home() {
             className="photo-frame"
           >
             <motion.img
-              src={anuj}
+              src={photo}
               alt="Anuj Yadav"
               initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
