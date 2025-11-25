@@ -100,7 +100,7 @@ export default function Home() {
               transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
               className="home-name"
             >
-              Anuj kumar yadav
+              Anuj Yadav
             </motion.span>
           </h1>
 
