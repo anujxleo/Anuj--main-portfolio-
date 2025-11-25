@@ -4,7 +4,7 @@ import "../CSS/Home.css";
 import "../index.css";
 
 // 🖼️ Import Assets
-import photo from "../../public/photo.jpg";
+import photo from "../../public/anuj.jpg";
 import githubLogo from "../../public/github.png";
 import linkedinLogo from "../../public/linkedin.png";
 import gmailLogo from "../../public/gmail.png";
@@ -14,7 +14,7 @@ import facebookLogo from "../../public/facebook.png";
 
 export default function Home() {
   const professions = [
-    "AI Enthusiast",
+    "web Developer",
     "Machine Learning Engineer",
     "Deep Learning Expert",
     "Computer Vision Researcher",
@@ -22,27 +22,22 @@ export default function Home() {
   ];
 
   const quickLinks = [
-    { img: githubLogo, title: "GitHub", link: "https://github.com/kunj2803" },
+    { img: githubLogo, title: "GitHub", link: "https://github.com/anujxleo" },
     {
       img: linkedinLogo,
       title: "LinkedIn",
-      link: "https://www.linkedin.com/in/kunj-desai-07717b293/",
+      link: "https://www.linkedin.com/in/anuj-yadav-a75296331/",
     },
-    { img: gmailLogo, title: "Email", link: "mailto:kunjd2803@gmail.com" },
+    { img: gmailLogo, title: "Email", link: "anujyadavyt5232@gmail.com" },
     {
       img: whatsappLogo,
       title: "WhatsApp",
-      link: "https://wa.me/+918758209508",
+      link: "https://wa.me/+917380989798",
     },
     {
       img: instagramLogo,
       title: "Instagram",
-      link: "https://www.instagram.com/kunj_2834/",
-    },
-    {
-      img: facebookLogo,
-      title: "Facebook",
-      link: "https://www.facebook.com/kunj.desai.222608",
+      link: "https://www.instagram.com/anuj_yadav.in?igsh=cW5yMG9qbTljOHNh",
     },
   ];
 
@@ -100,14 +95,13 @@ export default function Home() {
               transition={{ duration: 4, repeat: Infinity, ease: "linear" }}
               className="home-name"
             >
-              Anuj kumar yadav
+              Anuj Yadav
             </motion.span>
           </h1>
 
           {/* Typing Animated Text */}
           <p className="typing-effect">
-            Artificial Intelligence Engineer | Frontend Developer | Tech
-            Explorer
+            Computer Apllication Student | Frontend Developer | Programmar
           </p>
 
           {/* Profession Tags */}
@@ -131,9 +125,9 @@ export default function Home() {
           {/* Info Cards */}
           <motion.div className="info-cards">
             {[
-              { label: "📍 Location", value: "Surat, Gujarat, India" },
-              { label: "💼 Expertise", value: "AI/ML, Problem Solving" },
-              { label: "📧 Contact", value: "kunjd2803@gmail.com" },
+              { label: "📍 Location", value: "Jaunpur, UP, India" },
+              { label: "💼 Expertise", value: "Full stack Web devloper" },
+              { label: "📧 Contact", value: "anujyadavyt5232@gmail.com" },
             ].map((info, i) => (
               <motion.div
                 key={i}
