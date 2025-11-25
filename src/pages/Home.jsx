@@ -14,10 +14,10 @@ import facebookLogo from "../../public/facebook.png";
 
 export default function Home() {
   const professions = [
-    "AI Enthusiast",
-    "Machine Learning Engineer",
-    "Deep Learning Expert",
-    "Computer Vision Researcher",
+    "BCA Student",
+    "Programar",
+    "Web Devloper",
+    "video Editor",
     "Developer",
   ];
 
@@ -42,7 +42,7 @@ export default function Home() {
     {
       img: facebookLogo,
       title: "Facebook",
-      link: "https://www.facebook.com/kunj.desai.222608",
+      link: "https://www.facebook.com",
     },
   ];
 
