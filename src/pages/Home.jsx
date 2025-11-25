@@ -78,7 +78,7 @@ export default function Home() {
             <motion.img
               src={photo}
               alt="Anuj Yadav"
-              initial={{ scale: 0.2, opacity: 0 }}
+              initial={{ scale: 0.8, opacity: 0 }}
               animate={{ scale: 1, opacity: 1 }}
               transition={{ duration: 1 }}
               className="profile-photo"
